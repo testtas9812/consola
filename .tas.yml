@@ -1,7 +1,6 @@
 ---
 framework: jest
 postMerge:
-  isActive: false 
   pattern:
     - "./test/*.js"
   env: 
@@ -14,6 +13,9 @@ preMerge:
     - "./test/*.js"
   env: 
     NODE_ENV: test
+  strategy:
+    threshold: 4
+    name: after_n_commits
 preRun:
      command:
         - yarn install --immutable
