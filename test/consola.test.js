@@ -4,7 +4,6 @@ describe('consola', () => {
   test('can set level', () => {
     const consola = new Consola()
     expect(consola.level).toBe(3)
-
     for (let i = 0; i <= 5; i++) {
       consola.level = i
       expect(consola.level).toBe(i)
