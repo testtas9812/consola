@@ -1,12 +1,9 @@
 ---
 framework: jest
-licenseTier: xsmall
+tier: xsmall
 postMerge:
   pattern:
     - "./test/*.test.js"
-  strategy:
-    threshold: <5|100s|30m|6h>
-    type: <commit|time>
 preMerge:
   pattern:
     - "./test/*.test.js"
