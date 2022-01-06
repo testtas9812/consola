@@ -11,6 +11,7 @@ describe('require', () => {
     expect(consola1 === consola2).toBe(true)
   })
 
+  
   test('custom consola fails without delete cache', async () => {
     require('consola')
     const consola1 = 'my-consola'
