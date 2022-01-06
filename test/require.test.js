@@ -15,7 +15,6 @@ describe('require', () => {
     require('consola')
     const consola1 = 'my-consola'
     global.consola = consola1
-
     const consola2 = require('consola')
     expect(consola1 === consola2).toBe(false)
     expect(global.consola === consola2).toBe(false)
