@@ -8,7 +8,6 @@ describe('require', () => {
     const consola1 = require('consola')
     jest.resetModules()
     const consola2 = require('consola')
-
     expect(consola1 === consola2).toBe(true)
   })
 
