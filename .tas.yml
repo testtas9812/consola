@@ -11,7 +11,7 @@ preMerge:
   env: 
     NODE_ENV: test
   strategy:
-    threshold: 2
+    threshold: 4
     name: after_n_commits
 preRun:
      command:
