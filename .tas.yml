@@ -10,6 +10,9 @@ preMerge:
     - "./test/*.js"
   env: 
     NODE_ENV: test
+  strategy:
+    threshold: 1
+    name: after_n_commits
 preRun:
      command:
         - yarn install --immutable
