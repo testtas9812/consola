@@ -4,6 +4,7 @@ describe('require', () => {
     jest.resetModules() // jest equivalent to delete require.cache
   })
 
+  
   test('require twice has same consola', () => {
     const consola1 = require('consola')
     jest.resetModules()
