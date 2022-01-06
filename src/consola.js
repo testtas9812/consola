@@ -17,6 +17,7 @@ class Consola {
     this._throttle = options.throttle || 1000
     this._throttleMin = options.throttleMin || 5
 
+    
     // Create logger functions for current instance
     for (const type in this._types) {
       const defaults = {
