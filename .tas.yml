@@ -1,12 +1,13 @@
 ---
 framework: jest
 postMerge:
+  isActive: true 
   pattern:
     - "./test/*.js"
   env: 
     NODE_ENV: test
   strategy:
-    threshold: 2
+    threshold: 4
     name: after_n_commits
 preMerge:
   pattern:
