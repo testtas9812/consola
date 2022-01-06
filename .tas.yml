@@ -1,0 +1,20 @@
+---
+framework: jest
+licenseTier: xsmall
+postMerge:
+  pattern:
+    - "./test/*.test.js"
+  strategy:
+    threshold: <5|100s|30m|6h>
+    type: <commit|time>
+preMerge:
+  pattern:
+    - "./test/*.test.js"
+preRun:
+     command:
+        - yarn install
+        - yarn run build
+postRun:
+     command:
+        - yarn --version
+version: 2.1
