@@ -1,15 +1,18 @@
 ---
 framework: jest
-tier: xsmall
 postMerge:
   pattern:
-    - "./test/*.test.js"
+    - "./test/*.js"
+  env: 
+    NODE_ENV: test
 preMerge:
   pattern:
-    - "./test/*.test.js"
+    - "./test/*.js"
+  env: 
+    NODE_ENV: test
 preRun:
      command:
-        - yarn install
+        - yarn install --immutable
         - yarn run build
 postRun:
      command:
