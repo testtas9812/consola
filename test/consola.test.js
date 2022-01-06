@@ -10,6 +10,7 @@ describe('consola', () => {
     }
   })
 
+  
   test('silent log level does\'t print logs', async () => {
     const logs = []
     class TestReporter {
