@@ -6,9 +6,9 @@ postMerge:
     - "./test/*.js"
   env: 
     NODE_ENV: test
-  strategy:
-    threshold: 4
-    name: after_n_commits
+#   strategy:
+#     threshold: 4
+#     name: after_n_commits
 preMerge:
   pattern:
     - "./test/*.js"
