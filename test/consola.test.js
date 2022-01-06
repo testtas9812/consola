@@ -9,7 +9,6 @@ describe('consola', () => {
       expect(consola.level).toBe(i)
     }
   })
-
   
   test('silent log level does\'t print logs', async () => {
     const logs = []
