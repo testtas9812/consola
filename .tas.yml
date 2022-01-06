@@ -6,7 +6,7 @@ postMerge:
   env: 
     NODE_ENV: test
   strategy:
-    threshold: 1
+    threshold: 2
     name: after_n_commits
 preMerge:
   pattern:
