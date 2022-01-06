@@ -1,7 +1,7 @@
 ---
 framework: jest
 postMerge:
-isActive: false
+  isActive: false
   pattern:
     - "./test/*.js"
   env: 
