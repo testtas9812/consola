@@ -49,6 +49,7 @@ class Consola {
     return this._stderr || console._stderr // eslint-disable-line no-console
   }
 
+  
   create (options) {
     return new Consola(Object.assign({
       reporters: this._reporters,
