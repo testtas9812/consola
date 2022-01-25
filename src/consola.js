@@ -27,7 +27,6 @@ class Consola {
       this[type] = this._wrapLogFn(defaults)
       this[type].raw = this._wrapLogFn(defaults, true)
     }
-
     // Use _mockFn if is set
     if (this._mockFn) {
       this.mockTypes()

@@ -170,6 +170,7 @@ List of available levels [here](./src/types.js).
 
 You can set the log level using the `CONSOLA_LEVEL` environment variable, which must have the numeric log level as its value.
 
+
 ## `logObject`
 
 The `logObject` is a free-to-extend object which will be passed to reporters.
