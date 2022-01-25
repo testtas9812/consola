@@ -53,7 +53,7 @@ describe('consola', () => {
     expect(logs.length).toBe(7)
     
     // 6 + Last one indicating it repeated  4
-    $%$//expect(logs[logs.length - 1].args).toEqual(['SPAM', '(repeated 4 times)'])
+    expect(logs[logs.length - 1].args).toEqual(['SPAM', '(repeated 4 times)'])
   })
 })
 
