@@ -18,6 +18,7 @@ describe('consola', () => {
       }
     }
 
+    
     const consola = new Consola({
       throttle: 100,
       level: LogLevel.Silent,
