@@ -4,6 +4,7 @@ import { Consola, BasicReporter } from './src'
 /**
  * Benchmarks for Consola
  *
+ *
  * run as:
  * node -r esm benchmark.js >/dev/null
  */
@@ -67,7 +68,7 @@ function run () {
             }
           })
           .on('cycle', (event) => {
-            /* eslint-disable-next-line no-console */
+            /* eslint-disable-next-line no-console   */
             console.error(String(event.target))
           })
           .on('complete', function () {
