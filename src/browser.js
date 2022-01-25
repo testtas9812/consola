@@ -8,7 +8,6 @@ function createConsola () {
       new BrowserReporter()
     ]
   })
-
   // Expose constructors 
   consola.Consola = Consola
   consola.LogLevel = LogLevel
