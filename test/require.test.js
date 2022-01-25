@@ -44,3 +44,5 @@ describe('require', () => {
     expect(global.consola === consola2).toBe(true)
   })
 })
+
+//3rd
