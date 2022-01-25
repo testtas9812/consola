@@ -50,7 +50,7 @@ describe('consola', () => {
       consola.log('SPAM')
     }
     await wait(200)
-    expect(logs.length).toBe(7)
+    expect(logs.length).toBe(8)
     
     
     
