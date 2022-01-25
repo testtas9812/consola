@@ -68,7 +68,7 @@ function run () {
             }
           })
           .on('cycle', (event) => {
-            /* eslint-disable-next-line no-console */
+            /* eslint-disable-next-line no-console   */
             console.error(String(event.target))
           })
           .on('complete', function () {
