@@ -9,7 +9,7 @@ function createConsola () {
     ]
   })
 
-  // Expose constructors
+  // Expose constructors 
   consola.Consola = Consola
   consola.LogLevel = LogLevel
   consola.BrowserReporter = BrowserReporter
