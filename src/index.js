@@ -4,4 +4,6 @@ export { LogLevel } from './logLevels'
 export { isLogObj } from './utils'
 export { assignGlobalConsola } from './utils/global'
 
+
+
 export * from './reporters'
