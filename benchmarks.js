@@ -4,6 +4,7 @@ import { Consola, BasicReporter } from './src'
 /**
  * Benchmarks for Consola
  *
+ *
  * run as:
  * node -r esm benchmark.js >/dev/null
  */
