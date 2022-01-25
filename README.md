@@ -39,7 +39,6 @@ npm i consola
 ```
 
 ## Getting Started
-
 ```js
 const consola = require('consola')
 
