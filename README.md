@@ -74,6 +74,7 @@ A list of available types can be found [here](./src/types.js).
 
 - Aliases: `add`
 
+
 Register a custom reporter instance.
 
 #### `removeReporter(reporter?)`
