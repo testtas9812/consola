@@ -288,3 +288,6 @@ MIT - Made with 💖 By Nuxt.js team!
 
 [bundle-phobia-src]: https://flat.badgen.net/bundlephobia/minzip/consola
 [bundle-phobia-href]: https://bundlephobia.com/result?p=consola
+
+
+New branch for postmerge smart selection check
