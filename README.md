@@ -291,3 +291,4 @@ MIT - Made with 💖 By Nuxt.js team!
 
 
 New branch for postmerge smart selection check
+updating read me but should run diff from last commit
