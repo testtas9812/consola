@@ -17,7 +17,6 @@ describe('consola', () => {
         logs.push(logObj)
       }
     }
-
     
     const consola = new Consola({
       throttle: 100,
